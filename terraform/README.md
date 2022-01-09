@@ -22,6 +22,7 @@ In this folder we are creating all the AWS Resources.
 We use sub-models for code that can be reused, for example it is highly likely that we will create more ECS services so We can call the module to create another service, IaC Classic!
 
 ## Structure of Models
+```bash
 ├── README.md
 ├── ecs.tf
 ├── iam.tf
@@ -44,6 +45,7 @@ We use sub-models for code that can be reused, for example it is highly likely t
 ├── terraform.tfvars
 ├── upload_image.sh
 └── variables.tf
+```
 
 ## Input Variables
 * *Application* -> Name of your ecs app
