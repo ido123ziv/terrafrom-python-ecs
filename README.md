@@ -3,6 +3,7 @@ In this repo I'm creating a sample python app using flask, terraform script to d
 Using my Dockerfile and `aws-cli` scripts to create the remaining resources.
 
 ## Structure
+```bash
 ├── README.md
 ├── aws-cli
 │   ├── README.md
@@ -42,6 +43,7 @@ Using my Dockerfile and `aws-cli` scripts to create the remaining resources.
     ├── terraform.tfvars
     ├── upload_image.sh
     └── variables.tf
+```
 
 ## Prerequisites
 * install terraform
